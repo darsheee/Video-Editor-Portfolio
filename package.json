@@ -1,4 +1,7 @@
 {
+  "name": "portfolio",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -6,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@emotion/react": ">=16.8.0",
+    "@emotion/react": "^11.13.3",
     "@emotion/styled": "^11.13.0",
     "@react-email/components": "^0.0.12",
     "@vercel/analytics": "^1.1.1",
@@ -17,9 +20,9 @@
     "lucide-react": "^0.295.0",
     "next": "^14.2.7",
     "nodemailer": "^6.9.15",
+    "react": "^18.2.0",
     "react-awesome-reveal": "^4.2.14",
-     "react": "^18.3.1",
-  "react-dom": "^18.3.1",
+    "react-dom": "^18.2.0",
     "react-hot-toast": "^2.4.1",
     "react-icons": "^4.12.0",
     "react-intersection-observer": "^9.5.3",
