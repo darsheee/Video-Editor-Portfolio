@@ -10,10 +10,10 @@
   "postinstall": "npm install --legacy-peer-deps"
 }
 ,
-  "dependencies": {
-  "react": "^18.3.1",
-  "react-dom": "^18.3.1",
-  "next": "^14.2.11",
+ "dependencies": {
+  "react": "^18.2.0",
+  "react-dom": "^18.2.0",
+  "next": "^14.2.11", 
   "@emotion/react": "^11.13.3",
   "@emotion/styled": "^11.13.0",
   "@react-email/components": "^0.0.12",
