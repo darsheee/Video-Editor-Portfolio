@@ -9,7 +9,7 @@
     "@emotion/react": ">=16.8.0",
     "@emotion/styled": "^11.13.0",
     "@react-email/components": "^0.0.12",
-    "@vercel/analytics": "^18.3.1",
+    "@vercel/analytics": "^1.1.1",
     "clsx": "^2.0.0",
     "dotenv": "^16.4.5",
     "framer-motion": "^10.18.0",
