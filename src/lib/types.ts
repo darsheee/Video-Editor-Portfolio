@@ -2,13 +2,14 @@ import { links } from "./data";
 
 export type SectionName = (typeof links)[number]["hash"];
 
+// lib/types.ts
 export type ProjectInfo = {
   title: string;
-  description: string;
-  tags: string[];
-  imageUrl: string;
-  link: string;
+  videoUrl: string;
+  thumbnailUrl: string;
+  category: string;
 };
+
 
 export type Link = {
   nameEng: string;

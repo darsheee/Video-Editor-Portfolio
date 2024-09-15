@@ -5,6 +5,7 @@ import { ProjectInfo } from "@/lib/types";
 
 type ProjectProps = ProjectInfo & {
   thumbnailUrl: string;
+  videoUrl: string; 
 };
 
 export default function Project({

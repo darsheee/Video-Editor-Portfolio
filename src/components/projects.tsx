@@ -1,3 +1,4 @@
+// Projects.tsx
 'use client';
 import React from "react";
 import SectionHeading from "./section-heading";
@@ -19,7 +20,13 @@ export default function Projects() {
       </SectionHeading>
       <div className="flex flex-row flex-wrap justify-center gap-8 mb-28">
         {reels.map((project, index) => (
-          <Project {...project} key={index} />
+          <Project
+            key={index}
+            title={project.title}
+            videoUrl={project.videoUrl}
+            thumbnailUrl={project.thumbnailUrl}
+            category={project.category} // <--- Include category here
+          />
         ))}
       </div>
       <SectionHeading>
@@ -27,7 +34,13 @@ export default function Projects() {
       </SectionHeading>
       <div className="flex flex-row flex-wrap justify-center gap-8 mb-16">
         {longVideos.map((project, index) => (
-          <Project {...project} key={index} />
+          <Project
+            key={index}
+            title={project.title}
+            videoUrl={project.videoUrl}
+            thumbnailUrl={project.thumbnailUrl}
+            category={project.category} // <--- Include category here
+          />
         ))}
       </div>
       <div className="flex justify-center">

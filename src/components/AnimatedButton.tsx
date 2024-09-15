@@ -3,7 +3,12 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowRight } from 'lucide-react';
 
-const AnimatedButton = ({ link }) => {
+// Define the prop types
+interface AnimatedButtonProps {
+  link: string;
+}
+
+const AnimatedButton: React.FC<AnimatedButtonProps> = ({ link }) => {
   return (
     <motion.a
       href={link}

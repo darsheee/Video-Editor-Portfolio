@@ -1,6 +1,9 @@
-// pages/api/send-email.ts
 import type { NextApiRequest, NextApiResponse } from "next";
 import nodemailer from "nodemailer";
+import dotenv from "dotenv";
+
+// Load environment variables from .env file
+dotenv.config();
 
 // Configure the email transport using Gmail SMTP
 const transporter = nodemailer.createTransport({
@@ -84,12 +87,11 @@ export default async function sendEmail(req: NextApiRequest, res: NextApiRespons
     </div>
     <div class="footer">
       <p>This email was sent from your portfolio site.</p>
-      <p>For more information, visit our <a href="https://yourwebsite.com" target="_blank">website</a>.</p>
+      <p>For more information, visit our <a href="https://somnathbanerjee.site/" target="_blank">website</a>.</p>
     </div>
   </div>
 </body>
 </html>
-
 `;
 
       // Define email options
@@ -100,14 +102,14 @@ export default async function sendEmail(req: NextApiRequest, res: NextApiRespons
         html: emailHtml, // Use the generated HTML
       };
 
-      // Send email
+      // Send email using nodemailer
       const info = await transporter.sendMail(mailOptions);
 
       console.log("Email sent: ", info.response); // Log the response from Gmail
       res.status(200).json({ message: "Email sent successfully" });
     } catch (error) {
       console.error("Error sending email: ", error); // Log the error
-      res.status(500).json({ error: "Error sending email", details: error.message });
+      res.status(500).json({ error: "Error sending email", details: (error as any).message });
     }
   } else {
     res.status(405).json({ message: "Only POST requests are allowed" });
