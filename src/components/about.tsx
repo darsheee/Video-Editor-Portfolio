@@ -29,24 +29,8 @@ export default function About() {
             {/* Content */}
             <div className="text-lg mt-12 xl:mt-3">
               <div className="flex justify-start flex-col">
-                <Fade direction="up" delay={400} cascade damping={1e-1} triggerOnce={true}>
-                  <h3 className="font-bold mt-6">My Mission</h3>
-                </Fade>
-                <Fade direction="up" delay={600} cascade damping={1e-1} triggerOnce={true}>
-                  <p className="mt-2 leading-relaxed text-sm text-gray-700 dark:text-white/70">
-                    I am dedicated to crafting professional video edits that not only engage your audience but also achieve your unique goals. With a blend of creativity, precision, and expertise, I transform your vision into compelling visual stories that resonate and make an impact.
-                  </p>
-                </Fade>
-                <Fade direction="up" delay={800} cascade damping={1e-1} triggerOnce={true}>
-                  <h3 className="font-bold mt-6">My Vision</h3>
-                </Fade>
-                <Fade direction="up" delay={1000} cascade damping={1e-1} triggerOnce={true}>
-                  <p className="mt-2 leading-relaxed text-sm text-gray-700 dark:text-white/70">
-                    To redefine the art of video editing by seamlessly blending creativity and technical skill, delivering visual experiences that captivate, inspire, and drive success. I envision a world where every frame tells a story, and every edit elevates the message, leaving a lasting impression on audiences everywhere.
-                  </p>
-                </Fade>
-                <Fade direction="up" delay={1200} cascade damping={1e-1} triggerOnce={true}>
-                  <h3 className="font-bold mt-6">Experience</h3>
+              <Fade direction="up" delay={1200} cascade damping={1e-1} triggerOnce={true}>
+                  <h3 className="font-bold mt-6">E X P E R I E N C E</h3>
                 </Fade>
                 <Fade direction="up" delay={1400} cascade damping={1e-1} triggerOnce={true}>
                   <p className="mt-2 leading-relaxed text-sm text-gray-700 dark:text-white/70">
@@ -58,11 +42,40 @@ export default function About() {
                     <strong>
                       I am currently working in collaboration with{" "}
                       <a href="https://www.logicadz.com" target="_blank" rel="noopener noreferrer" className="text-blue-500 underline">
-                        Logicadz
-                      </a>.
+                        Logicadz  </a>.
                     </strong>
                   </p>
+                  <p className="mt-2 leading-relaxed text-sm text-gray-700 dark:text-white/70">
+  <strong>Key responsibilities :</strong>
+</p>
+
+<div className="mt-2 leading-relaxed text-sm text-gray-700 dark:text-white/70">
+  <ul style={{ listStyleType: 'disc', paddingLeft: '20px' }}>
+    <li>Video Editing</li>
+    <li>Script writting</li>
+    <li>Supervised Editing Team</li>
+    <li>Manage Daily Content Creation</li>
+    <li>I provided my clients with creative ideas for
+generating new content</li>
+  </ul>
+</div>
+
+                  
                 </Fade>
+                <Fade direction="up" delay={400} cascade damping={1e-1} triggerOnce={true}>
+                  <h3 className="font-bold mt-6">A C H I E V E M E N T S</h3>
+                </Fade>
+                <Fade direction="up" delay={600} cascade damping={1e-1} triggerOnce={true}>
+                  <p className="mt-2 leading-relaxed text-sm text-gray-700 dark:text-white/70">
+                  Grew three YouTube channels associated with my
+clients to over 2M, 300K, and 700K subscribers.
+Expanded several Instagram pages while working
+alongside my clients. Throughout this process, I
+learned a lot.
+                  </p>
+                </Fade>
+               
+                
               </div>
             </div>
           </div>

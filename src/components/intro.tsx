@@ -6,6 +6,7 @@ import { Fade } from "react-awesome-reveal";
 import Link from "next/link";
 import { BsLinkedin } from "react-icons/bs";
 import { BiLogoInstagramAlt } from "react-icons/bi";
+import { HiDownload } from "react-icons/hi";
 import { useSectionInView } from "@/lib/useInView";
 import { useActiveSectionContext } from "@/containers/active-section";
 import { Mail } from "lucide-react";
@@ -89,6 +90,15 @@ export default function Intro() {
         >
           Connect <Mail color={"#9ca3af"} />
         </Link>
+
+        <a
+          className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 "
+          href="/Resume.pdf"
+          download
+        >
+          Download CV{" "}
+          <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
+        </a>
 
         <a
           className="bg-gray-900 p-4 text-white flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
