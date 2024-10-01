@@ -50,6 +50,21 @@ export const projectsData = [
     category: "Reel",
   },
   {
+    title: "Informative reel",
+    videoUrl: "https://drive.google.com/file/d/16QxxRrVfMxlVwGicUyW1keAFU1jPtGJ0/preview",
+    thumbnailUrl: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4qPCNOchWG7yqpbEgx5hjMjhIEGA_hHfoWe0JN3B8VTKpaG4yx-fejSHBO-_9nYC968OtFU96ZAi41bh-jOwSW6UFU9Y3_0UQi6-DNd8BaiTwrLENEpVkFIazRkNQ4HYNHTqLjol9v4LHwzgMtJkaGEDFJI_s14hSXzVdCpVbeMJ_5HlTfjiKovAtAV0/s1600/741293119425555.631efb921f5b9.png",
+    category: "Reel",
+  },
+  {
+    title: "Promotional reel",
+    videoUrl: "https://drive.google.com/file/d/16vYakwGDfBE2OYex_K38j1KH2hYeVumB/preview",
+    thumbnailUrl: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEggbq2htKvypX8G1JMqDgkD3XTuOBCHg7T8ELblm0nzaKTdiQv_dU2VATm4KIsCF5O6smw9wMbgXMa5FsvRx5XXG0zmULxQoyoU7-2KoIUUg0tPN1jtEOsk23WuVFALvl7nfLC80KNydZ0z40tWemD4ZrmCeBEkJa53amcR8CcDDasWWjfuHuxXZj4-24w/s1600/call-of-duty-pictures-7lrqnchbx478ucgg.jpg",
+    category: "Reel",
+  },
+
+
+
+  {
     title: "Content Edit",
     videoUrl: "https://drive.google.com/file/d/1-FhWfC2O9dwQd3kwj1yYlJ1JxqNFEwJ2/preview",
     thumbnailUrl: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjO0MG3eudRcBb59o8ik5Lj-TpA9MkQ_YgNjumYs2XPU01X3LMy-NRveYiI5ZF8UJAkOKJaMqeS6BK1tjw0SV7pKgjytqPVLzaiEYfP0JREek69kJ2raY8Ypb-yC-3iB09TqMRd8WPulGqniubYYpOVmhc_XCo5OV1rRAM-qKLHPJx8EE-HzNg2jQXuz8E/s1600/Screenshot%202024-09-13%20141135.png",

@@ -42,7 +42,9 @@ export default function About() {
                     <strong>
                       I am currently working in collaboration with{" "}
                       <a href="https://www.logicadz.com" target="_blank" rel="noopener noreferrer" className="text-blue-500 underline">
-                        Logicadz  </a>.
+                        Logicadz  </a>,
+                        <a href="https://www.braelproductions.com/" target="_blank" rel="noopener noreferrer" className="text-blue-500 underline">
+                        Braelproductions  </a>!
                     </strong>
                   </p>
                   <p className="mt-2 leading-relaxed text-sm text-gray-700 dark:text-white/70">
