@@ -27,7 +27,7 @@ export const links: Link[] = [
 export const projectsData = [
   {
     title: "Car Edit",
-    videoUrl: "https://drive.google.com/file/d/1ifg73_zOs0PnobCSP7cUnNu36L-NSNb5/preview",
+    videoUrl: "https://player.vimeo.com/video/993538846",
     thumbnailUrl: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhELqDHdJPiN9cKe2W4CWIQPXwW43Dl3Oo86wsp83rXUTl15wwQm3psgVSdtMh49LuEpfRrNI4EgSzqcApHsKK1enr-Kb14SEwuI5CMwSW02-K2Remx62nTUQLyDPy-D9PdvesCJP3iHIhHNXLuEXy6zZWQ2UZf-r0U16o1A0xNIZYzW9OIk_hMLCKC67w/s1600/Firefly%2020240913140844.png",
     category: "Reel",
   },
